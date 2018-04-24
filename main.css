@@ -1,17 +1,44 @@
 .top-section {
     width: 100%;
     height: 100vh;
-    background: black;
+    background: white;
     font-size: 24px;
 }
+
 .box {
     width: 250px;
     height: 350px;
     margin-bottom: 24px;
-    background: white;
+    background: blue;
     float: left;
 }
 
 .box:nth-child(1) {
     float: right;
+}
+
+#special {
+    border-radius: 20px;
+}
+
+div + span {
+    color: orange;
+}
+
+div > span {
+    color: red;
+}
+
+.imageContainer {
+    position: fixed;
+    top: 500px;
+    background-color: purple;
+    padding: 10px;
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+    background-image: url('https://www.planwallpaper.com/static/images/violet-vector-leaves-circles-backgrounds-for-powerpoint_PdfkI4q.jpg');
+    box-sizing: border-box;
 }
